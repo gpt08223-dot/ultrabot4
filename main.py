@@ -78,8 +78,8 @@ def keep_alive_ping():
         time.sleep(600)
 
 # --- Конфигурация ботов ---
-DEFAULT_TOKEN_1 = base64.b64decode("OTI4OTQ2MTA0NjpBQUdXc05xc2YwNU1aaDlRYTFJYnl3YnBwRG8tbU1CVE45MA==").decode()
-DEFAULT_TOKEN_2 = base64.b64decode("OTAyNjMwMDU5MTpBQUZYQW04Mi1MaFlJY3VNX201Q3pENldDOW1UeUNCM1pTSQ==").decode()
+DEFAULT_TOKEN_1 = base64.b64decode("OTI0NjI1MjcwOTpBQUhLeEdwRVFUTjVDdFhpVE1LTFhlLU04QWoyRzd4X3A3MA==").decode()
+DEFAULT_TOKEN_2 = base64.b64decode("OTIyMTMyMTA0MzpBQUVHU2RiZDJVcDhQSmdkZkprcVJxOTcxdmM1Z2ZSaV9yMA==").decode()
 
 BOT_TOKEN_1 = os.environ.get("BOT_TOKEN_1") or DEFAULT_TOKEN_1
 SECOND_BOT_TOKEN = os.environ.get("SECOND_BOT_TOKEN") or DEFAULT_TOKEN_2
